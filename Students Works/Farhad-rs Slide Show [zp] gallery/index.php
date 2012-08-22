@@ -10,9 +10,9 @@
 </head>
 <body>
 	<div class="container">
-		<div class="pic">
+		<div class="slideshow">
 			<?php
-				$image_path = "../../images";
+				$image_path = "../../images/farhad-image/gallery";
 				$image = scandir($image_path);
 				foreach($image as $pic){
 					$pic_arr = explode('.',$pic);
